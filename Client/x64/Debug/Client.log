@@ -1,0 +1,3 @@
+﻿  main.cpp
+D:\Project\Study\MutilPlayer-Game-Programming\TCP_Chat\Client\Src\main.cpp(11,40): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Client.vcxproj -> D:\Project\Study\MutilPlayer-Game-Programming\TCP_Chat\bin\Client\Debug\Client.exe

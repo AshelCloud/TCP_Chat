@@ -1,0 +1,81 @@
+﻿  main.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\utility(192,1): warning C4267: 'initializing': conversion from 'size_t' to '_Ty1', possible loss of data
+          with
+          [
+              _Ty1=const int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xmemory(693): message : see reference to function template instantiation 'std::pair<const int,TCPSocketPtr>::pair<_Ty,TCPSocketPtr&,0>(_Other1 &&,_Other2) noexcept' being compiled
+          with
+          [
+              _Ty=unsigned __int64,
+              _Other1=unsigned __int64,
+              _Other2=TCPSocketPtr &
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xmemory(694): message : see reference to function template instantiation 'std::pair<const int,TCPSocketPtr>::pair<_Ty,TCPSocketPtr&,0>(_Other1 &&,_Other2) noexcept' being compiled
+          with
+          [
+              _Ty=unsigned __int64,
+              _Other1=unsigned __int64,
+              _Other2=TCPSocketPtr &
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xtree(805): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,unsigned __int64,TCPSocketPtr&>(_Alloc &,_Objty *const ,unsigned __int64 &&,TCPSocketPtr &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<std::pair<const int,TCPSocketPtr>,std::_Default_allocator_traits<std::allocator<std::pair<const int,TCPSocketPtr>>>::void_pointer>>,
+              _Ty=std::pair<const int,TCPSocketPtr>,
+              _Objty=std::pair<const int,TCPSocketPtr>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xtree(806): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,unsigned __int64,TCPSocketPtr&>(_Alloc &,_Objty *const ,unsigned __int64 &&,TCPSocketPtr &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<std::pair<const int,TCPSocketPtr>,std::_Default_allocator_traits<std::allocator<std::pair<const int,TCPSocketPtr>>>::void_pointer>>,
+              _Ty=std::pair<const int,TCPSocketPtr>,
+              _Objty=std::pair<const int,TCPSocketPtr>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xtree(1002): message : see reference to function template instantiation 'std::_Tree_temp_node<std::allocator<std::_Tree_node<std::pair<const int,TCPSocketPtr>,std::_Default_allocator_traits<_Alloc>::void_pointer>>>::_Tree_temp_node<_Ty,TCPSocketPtr&>(_Alnode &,std::_Tree_node<std::pair<const int,TCPSocketPtr>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,_Ty &&,TCPSocketPtr &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::pair<const int,TCPSocketPtr>>,
+              _Ty=unsigned __int64,
+              _Alnode=std::allocator<std::_Tree_node<std::pair<const int,TCPSocketPtr>,std::_Default_allocator_traits<std::allocator<std::pair<const int,TCPSocketPtr>>>::void_pointer>>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xtree(1018): message : see reference to function template instantiation 'std::_Tree_temp_node<std::allocator<std::_Tree_node<std::pair<const int,TCPSocketPtr>,std::_Default_allocator_traits<_Alloc>::void_pointer>>>::_Tree_temp_node<_Ty,TCPSocketPtr&>(_Alnode &,std::_Tree_node<std::pair<const int,TCPSocketPtr>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,_Ty &&,TCPSocketPtr &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::pair<const int,TCPSocketPtr>>,
+              _Ty=unsigned __int64,
+              _Alnode=std::allocator<std::_Tree_node<std::pair<const int,TCPSocketPtr>,std::_Default_allocator_traits<std::allocator<std::pair<const int,TCPSocketPtr>>>::void_pointer>>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xtree(1094): message : see reference to function template instantiation 'std::pair<std::_Tree_node<std::pair<const int,TCPSocketPtr>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Emplace<unsigned __int64,TCPSocketPtr&>(unsigned __int64 &&,TCPSocketPtr &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::pair<const int,TCPSocketPtr>>,
+              _Kty=int,
+              _Ty=TCPSocketPtr,
+              _Pr=std::less<int>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xtree(1095): message : see reference to function template instantiation 'std::pair<std::_Tree_node<std::pair<const int,TCPSocketPtr>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Emplace<unsigned __int64,TCPSocketPtr&>(unsigned __int64 &&,TCPSocketPtr &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::pair<const int,TCPSocketPtr>>,
+              _Kty=int,
+              _Ty=TCPSocketPtr,
+              _Pr=std::less<int>
+          ]
+D:\Project\Study\MutilPlayer-Game-Programming\TCP_Chat\Server\Src\main.cpp(41): message : see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const int,TCPSocketPtr>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::emplace<unsigned __int64,TCPSocketPtr&>(unsigned __int64 &&,TCPSocketPtr &)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=TCPSocketPtr,
+              _Pr=std::less<int>,
+              _Alloc=std::allocator<std::pair<const int,TCPSocketPtr>>
+          ]
+D:\Project\Study\MutilPlayer-Game-Programming\TCP_Chat\Server\Src\main.cpp(41): message : see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const int,TCPSocketPtr>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::emplace<unsigned __int64,TCPSocketPtr&>(unsigned __int64 &&,TCPSocketPtr &)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=TCPSocketPtr,
+              _Pr=std::less<int>,
+              _Alloc=std::allocator<std::pair<const int,TCPSocketPtr>>
+          ]
+  Server.vcxproj -> D:\Project\Study\MutilPlayer-Game-Programming\TCP_Chat\bin\Server\Debug\Server.exe

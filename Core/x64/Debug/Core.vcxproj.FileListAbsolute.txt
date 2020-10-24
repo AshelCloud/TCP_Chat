@@ -1,0 +1,2 @@
+D:\Project\Study\MutilPlayer-Game-Programming\TCP_Chat\bin\Core\Core.pdb
+D:\Project\Study\MutilPlayer-Game-Programming\TCP_Chat\Core\x64\Debug\Core.pdb
